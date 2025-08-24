@@ -4,6 +4,12 @@
 
 ---
 
+## 📷 Screenshots
+
+![Screenshot](NeuroWall-SarifViewer-Screenshot.png)
+
+---
+
 ## 🚀 Features
 
 * **Offline Support** – Works entirely client-side. No server required.
@@ -75,12 +81,6 @@ opengrep scan --sarif-output=report.sarif src
 * Sharing scan results in a readable format with non-technical teams.
 * Comparing findings across multiple tools (SemGrep, OpenGrep, NeuroWall).
 * Quick triage of vulnerabilities without needing heavy IDE or CI/CD integration.
-
----
-
-## 📷 Screenshots
-
-![Screenshot](NeuroWall-SarifViewer-Screenshot.png)
 
 ---
 
