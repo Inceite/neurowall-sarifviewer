@@ -1,6 +1,6 @@
-# NeuroWall SarifViewer - Offline SARIF Security Report Viewer
+# NeuroWall SARIF Viewer - Offline SARIF Security Report Viewer
 
-**NeuroWall SarifViewer** is an offline, interactive **SARIF (Static Analysis Results Interchange Format) viewer**. It converts raw `.sarif` or `.json` security scan results (from tools like **SemGrep, OpenGrep, and NeuroWall Code Scanner**) into clean, user-friendly HTML reports that can be viewed locally in your browser.
+**NeuroWall SARIF Viewer** is an offline, interactive **SARIF (Static Analysis Results Interchange Format) viewer**. It converts raw `.sarif` or `.json` security scan results (from tools like **SemGrep, OpenGrep, and NeuroWall Code Scanner**) into clean, user-friendly HTML reports that can be viewed locally in your browser.
 
 ---
 
@@ -41,7 +41,7 @@ Here’s an updated **README section** you can add under **Usage**:
 
 ## 📝 Generating SARIF Reports
 
-You can use **Semgrep** and **OpenGrep** to generate `.sarif` reports that work with **NeuroWall SarifViewer**.
+You can use **Semgrep** and **OpenGrep** to generate `.sarif` reports that work with **NeuroWall Sarif Viewer**.
 
 ### 🔹 Semgrep
 
@@ -52,7 +52,7 @@ Semgrep can output findings directly in **SARIF** format:
 semgrep scan --config auto --sarif-output=report.sarif src
 ```
 
-👉 Then load `report.sarif` into **NeuroWall SarifViewer**.
+👉 Then load `report.sarif` into **NeuroWall Sarif Viewer**.
 
 ---
 
@@ -65,7 +65,7 @@ If you’re using **OpenGrep**, you can export SARIF by running:
 opengrep scan --sarif-output=report.sarif src
 ```
 
-👉 Open the generated `report.sarif` in **NeuroWall SarifViewer**.
+👉 Open the generated `report.sarif` in **NeuroWall Sarif Viewer**.
 
 ---
 
