@@ -34,6 +34,41 @@
 
 ---
 
+Perfect idea 🙌 — adding instructions for generating SARIF reports will make your README much more useful for new users.
+Here’s an updated **README section** you can add under **Usage**:
+
+---
+
+## 📝 Generating SARIF Reports
+
+You can use **Semgrep** and **OpenGrep** to generate `.sarif` reports that work with **NeuroWall SarifViewer**.
+
+### 🔹 Semgrep
+
+Semgrep can output findings directly in **SARIF** format:
+
+```bash
+# Run Semgrep with rules and output in SARIF format
+semgrep scan --config auto --sarif-output=report.sarif src
+```
+
+👉 Then load `report.sarif` into **NeuroWall SarifViewer**.
+
+---
+
+### 🔹 OpenGrep
+
+If you’re using **OpenGrep**, you can export SARIF by running:
+
+```bash
+# Example: run OpenGrep scan and export to SARIF
+opengrep scan --sarif-output=report.sarif src
+```
+
+👉 Open the generated `report.sarif` in **NeuroWall SarifViewer**.
+
+---
+
 ## 🛠 Example Use Cases
 
 * Reviewing static analysis results offline.
