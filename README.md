@@ -1,4 +1,4 @@
-# 🧩 NeuroWall SarifViewer - Offline SARIF Security Report Viewer
+# NeuroWall SarifViewer - Offline SARIF Security Report Viewer
 
 **NeuroWall SarifViewer** is an offline, interactive **SARIF (Static Analysis Results Interchange Format) viewer**. It converts raw `.sarif` or `.json` security scan results (from tools like **SemGrep, OpenGrep, and NeuroWall Code Scanner**) into clean, user-friendly HTML reports that can be viewed locally in your browser.
 
